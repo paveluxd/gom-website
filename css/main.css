@@ -1,0 +1,60 @@
+body{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+
+    background-color: #1D1D1D;
+    min-height: 100vh;
+
+    background-image: url(/img/key.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: covceer; */
+
+}
+
+p, h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1{
+    font-size: 52px;
+    font-family: 'Grenze';
+}
+
+p{
+    font-family: sans-serif;
+    color: rgb(206, 206, 206);
+}
+
+a {
+    height: 52px;
+    padding: 12px 22px 12px 12px;
+    background-color: black;
+    color: white;
+
+    text-decoration: none;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border: 2px solid grey;
+}
+
+a p {
+    padding-top: 3px;
+}
+
+/* img{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    z-index: -1;
+} */
